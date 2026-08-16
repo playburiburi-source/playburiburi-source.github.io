@@ -1,0 +1,15 @@
+# app-ads.txt — Authorized Sellers for Apps (IAB Tech Lab)
+# https://playburiburi-source.github.io/app-ads.txt
+#
+# TODO(1): 아래 [IRONSOURCE_PUBLISHER_ID]를 실제 값으로 바꾼다.
+#          ironSource/LevelPlay 콘솔 → 좌하단 아바타 → Account → API 탭 → Publisher ID
+# TODO(2): LevelPlay 콘솔이 제공하는 리셀러 목록 전체를 이 파일 아래에 붙여넣는다.
+#          목록은 주기적으로 갱신되므로 손으로 적지 말고 콘솔에서 복사할 것.
+# TODO(3): 미디에이션에 다른 네트워크(AdMob 등)를 추가하면 그쪽 라인도 각자 추가한다.
+
+OWNERDOMAIN=playburiburi-source.github.io
+
+# --- Unity LevelPlay / ironSource ---
+ironsrc.com, [IRONSOURCE_PUBLISHER_ID], DIRECT
+
+# --- 리셀러 목록은 여기 아래에 붙여넣는다 (TODO(2)) ---
